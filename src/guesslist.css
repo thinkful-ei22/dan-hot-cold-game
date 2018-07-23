@@ -1,0 +1,27 @@
+ul.guessBox li {
+    display: inline;
+    background-color: #1a4e95;
+    padding: 0.3em;
+    border-radius: 4px;
+    width: 95%;
+    margin: 0.2em;
+    color: #fff;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+ul {
+    list-style: none;
+}
